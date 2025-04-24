@@ -24,7 +24,7 @@ We use the **SkyView** dataset, which consists of **15 aerial scene categories**
 
 ---
 
-## 🧠 Models Implemented
+##  Models Implemented
 
 | Approach            | Features             | Classifier     | Accuracy | Macro F1 |
 |---------------------|----------------------|----------------|----------|----------|
@@ -32,12 +32,12 @@ We use the **SkyView** dataset, which consists of **15 aerial scene categories**
 | ResNet18 (baseline) | Raw Pixels 224×224   | Pretrained CNN | ~95.5%   | ~0.95    |
 | EfficientNet B0     | Raw Pixels 224×224   | Pretrained CNN | ~97.5%   | ~0.97    |
 
-### 🔁 Augmentation Ablation (EfficientNet B0)
+###  Augmentation Ablation (EfficientNet B0)
 We tested three data augmentation strategies:
 
 - `randomcrop`
 - `colorjitter`
-- `augmix` ✅ (best robustness under distortion)
+- `augmix` (best robustness under distortion)
 
 ---
 
